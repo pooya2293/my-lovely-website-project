@@ -1,0 +1,62 @@
+
+/************************************/
+
+/*body:
+- giv the body element relative position for the scroll spy work
+-add font family for whole page*/
+body {
+}
+
+
+/* *video: 
+-set the video background, make it fixed 
+-make sure it aperans behind all elements
+-make it seperate across  the whole web pages*/
+
+#bgvideo {
+
+	position: fixed;
+	min-height:100%;
+	min-width:100%;
+	filter: blur(3px);
+	z-index: -100;
+}
+
+/*video does not work in smal devises
+-Hide the video and set the pictiure as bg use (@media)
+-make it seperate across  the whole web pages*/
+
+/*navigation:
+-style the navbar*/
+
+/*-logo*/
+.logo {
+	height:29px;
+	margin:-3.7px 10px; 
+}
+
+/*Home style: */
+.jumbotron {
+	background: transparent;
+	text-align: center;
+	margin-top:50px;
+}
+
+/*-btn*/
+.jumbotron .btn{
+	margin-top:10%;
+	background-color:rgba(0,0,0,0.6);
+	padding:10px 20px;
+	color:#fff;
+	border-radius:0;
+	font-size:16px;
+}
+
+
+/*about section:
+-carousl items*/
+
+/*footer srtle*/
+
+
+/************************************/
