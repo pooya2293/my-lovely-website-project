@@ -5,6 +5,7 @@
 - giv the body element relative position for the scroll spy work
 -add font family for whole page*/
 body {
+
 }
 
 
@@ -52,10 +53,65 @@ body {
 	font-size:16px;
 }
 
+.jumbotron .btn:hover {
 
-/*about section:
--carousl items*/
+	background-color:rgba(0,0,0,0.09);
+	border:solid 1px;
+	color: #2b2323;
+	font-weight: bold;
+	font-size:17.5px;
+}
 
+
+/*about section:*/
+
+#image1 {
+	margin-left:30px;
+}
+
+#about {
+	text-align: center;
+	margin-top:100px;
+}
+
+#about img{
+	height:200px;
+	margin-top:50px;
+}
+
+/*-carousl items*/
+
+#Carousel {
+	margin-top:120px;
+	
+}
+
+#myCarousel{
+	width: 50%;
+	margin: 0 auto;
+}
+
+.carousel-indicators {
+	margin:20% -28.9%;
+}
+
+.carousel-caption {
+	position: relative;
+	left:auto;
+	right:auto;
+	height:100px;
+}
+
+/*.left {
+	margin:24% -5%;
+	padding:30px;
+}
+
+.right {
+	margin:24% -5%;
+	padding:30px;
+}
+*/
 /*footer srtle*/
 
 
