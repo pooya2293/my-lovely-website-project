@@ -17,11 +17,12 @@ padding: 0;
 
 #bgvideo {
 	position: fixed;
-	min-height:100%;
-	min-width:100%;
+	min-height:90%;
+	min-width:99%;
 	filter: blur(4px);
 	z-index: -100;
-	/*transform:translateX(-30%);*/
+
+	
 }
 
 /*video does not work in smal devises
@@ -31,10 +32,16 @@ padding: 0;
 /*navigation:
 -style the navbar*/
 
+
 /*-logo*/
 .logo {
-	height:29px;
-	margin:-3.7px 0px; 
+width:12%;
+margin:-1.2% 40%;
+
+}
+
+.navbar-header {
+	margin:0 -90px;
 }
 
 /*Home style: */
