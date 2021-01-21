@@ -133,11 +133,22 @@ margin:-1.2% 45%;
 		font-size:20px;
 	}
 
-	.carousel li{
-		font-size:2px;
-		padding: 2px 2px;
+.carousel-indicators {
+    margin: 0px;
+    height: 90px;
+}
 
-	}
+    .carousel-indicators ol {
+        width: 2%;
+    }
+
+
+    .carousel-indicators li{
+        height: 4px !important;
+        border-radius: 5px !important;
+        width: 1.8%;
+
+    }
 }
 
 @media (max-width:380px){
@@ -146,7 +157,7 @@ margin:-1.2% 45%;
 	right:22%;
 }
 	
-/*slidebar*/
+/*slidebar
 	#myCarousel{
 	width: 100%;
 	margin: 0 -2%;
