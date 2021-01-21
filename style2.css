@@ -19,7 +19,7 @@ body {
 	position: fixed;
 	min-height:100%;
 	min-width:100%;
-	filter: blur(3px);
+	filter: blur(4px);
 	z-index: -100;
 }
 
@@ -102,16 +102,70 @@ body {
 	height:100px;
 }
 
-/*.left {
-	margin:24% -5%;
-	padding:30px;
+/*media*/
+@media (max-width:700px){
+
+	#myCarousel{
+	width: 78%;
+	margin: 0 9%;
+	}
+	.carousel-caption {
+	position: relative;
+	left:auto;
+	right:auto;
+	height:70px;
+
 }
 
-.right {
-	margin:24% -5%;
-	padding:30px;
+	.carousel-caption h2{
+		font-size:20px;
+	}
 }
-*/
+
+@media (max-width:380px){
+	body{
+		background: url(https://freenaturestock.com/wp-content/uploads/freenaturestock-1710.jpg)  ;
+	/*background filter blure i get tag from https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter*/
+	height:250%;
+	/*add blur*/
+	backdrop-filter: blur(2.5px);
+	/*center and scale the image nicely*/
+	background-position: center;
+	background-size: cover;
+	/*i think its for IE old version*/
+	background-repeat: cover;
+
+	}
+	#bgvideo {
+		display:none;
+	}
+
+
+	.navbar {
+		margin-top: -50px;
+
+	}
+
+	#myCarousel{
+	width: 100%;
+	margin: 0 -2%;
+	}
+	.carousel-caption {
+	position: relative;
+	left:auto;
+	right:auto;
+	height:60px;
+
+}
+
+	.carousel-caption h2{
+		font-size:17px;
+	}
+
+	.container h1,h2 {
+		font-size:26px;
+	}
+}
 /*footer srtle*/
 
 
