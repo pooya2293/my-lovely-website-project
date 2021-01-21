@@ -4,10 +4,11 @@
 /*body:
 - giv the body element relative position for the scroll spy work
 -add font family for whole page*/
+/*make video bg less than window screen*/
 body {
-
+margin:0;
+padding: 0;
 }
-
 
 /* *video: 
 -set the video background, make it fixed 
@@ -15,12 +16,12 @@ body {
 -make it seperate across  the whole web pages*/
 
 #bgvideo {
-
 	position: fixed;
 	min-height:100%;
 	min-width:100%;
 	filter: blur(4px);
 	z-index: -100;
+	/*transform:translateX(-30%);*/
 }
 
 /*video does not work in smal devises
@@ -33,7 +34,7 @@ body {
 /*-logo*/
 .logo {
 	height:29px;
-	margin:-3.7px 10px; 
+	margin:-3.7px 0px; 
 }
 
 /*Home style: */
@@ -142,6 +143,7 @@ body {
 
 
 	.navbar {
+
 		margin-top: -50px;
 
 	}
