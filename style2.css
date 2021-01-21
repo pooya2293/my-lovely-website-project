@@ -4,18 +4,15 @@
 /*body:
 - giv the body element relative position for the scroll spy work
 -add font family for whole page*/
-/*make video bg less than window screen*/
-body {
-margin:0;
-padding: 0;
-}
+/*fixing hied btn bar in smal device*/
+
 
 /* *video: 
 -set the video background, make it fixed 
 -make sure it aperans behind all elements
 -make it seperate across  the whole web pages*/
 
-#bgvideo {
+/*#bgvideo {
 	position: fixed;
 	min-height:90%;
 	min-width:99%;
@@ -23,7 +20,7 @@ padding: 0;
 	z-index: -100;
 
 	
-}
+}*/
 
 /*video does not work in smal devises
 -Hide the video and set the pictiure as bg use (@media)
@@ -36,12 +33,12 @@ padding: 0;
 /*-logo*/
 .logo {
 width:12%;
-margin:-1.2% 40%;
+margin:-1.2% 45%;
 
 }
 
 .navbar-header {
-	margin:0 -90px;
+	margin:0 -120px;
 }
 
 /*Home style: */
