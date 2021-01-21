@@ -41,6 +41,9 @@ margin:-1.2% 45%;
 	margin:0 -120px;
 }
 
+.navbar-toggle{
+	right:12%;
+}
 /*Home style: */
 .jumbotron {
 	background: transparent;
@@ -108,7 +111,11 @@ margin:-1.2% 45%;
 }
 
 /*media*/
-@media (max-width:700px){
+@media (max-width:600px){
+
+	.navbar-toggle{
+	right:16.4%;
+	}
 
 	#myCarousel{
 	width: 78%;
@@ -125,33 +132,21 @@ margin:-1.2% 45%;
 	.carousel-caption h2{
 		font-size:20px;
 	}
+
+	.carousel li{
+		font-size:2px;
+		padding: 2px 2px;
+
+	}
 }
 
 @media (max-width:380px){
-	body{
-		background: url(https://freenaturestock.com/wp-content/uploads/freenaturestock-1710.jpg)  ;
-	/*background filter blure i get tag from https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter*/
-	height:250%;
-	/*add blur*/
-	backdrop-filter: blur(2.5px);
-	/*center and scale the image nicely*/
-	background-position: center;
-	background-size: cover;
-	/*i think its for IE old version*/
-	background-repeat: cover;
 
-	}
-	#bgvideo {
-		display:none;
-	}
-
-
-	.navbar {
-
-		margin-top: -50px;
-
-	}
-
+.navbar-toggle{
+	right:22%;
+}
+	
+/*slidebar*/
 	#myCarousel{
 	width: 100%;
 	margin: 0 -2%;
