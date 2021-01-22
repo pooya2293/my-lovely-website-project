@@ -113,7 +113,62 @@ margin:-1.2% 40%;
 	height:100px;
 }
 
+
+/*neshanegar slide show*/
+
+.carousel-indicators {
+    margin: 4% -27%;
+    height: 20%;
+}
+
+    .carousel-indicators ol {
+        width: 100%;
+    }
+
+
+    .carousel-indicators li{
+        height: 5px !important;
+        border-radius: 20px !important;
+        width: 5px;
+
+    }
+
+    ol.carousel-indicators li.active {
+  background: #FFF;
+  width: 5px;
+  padding:3px;
+
+}
+
+
+
+
+
+
+
+
 /*media*/
+
+@media (max-width:1000px){
+
+	.carousel-indicators {
+    	margin: 10% -27%;
+    	height: 20%;
+	}
+
+}
+
+@media (max-width:780px){
+
+	.carousel-indicators {
+    	margin: 19.4% -27%;
+    	height: 20%;
+	}
+
+}
+
+
+
 @media (max-width:600px){
 
 	.navbar-toggle{
@@ -136,31 +191,11 @@ margin:-1.2% 40%;
 		font-size:20px;
 	}
 
-/*neshanegar slide show*/
+	.carousel-indicators {
+    	margin: 10% -27%;
+    	height: 20%;
+	}
 
-.carousel-indicators {
-    margin: -10px -120px;
-    height: 90px;
-}
-
-    .carousel-indicators ol {
-        width: 1px;
-    }
-
-
-    .carousel-indicators li{
-        height: 5px !important;
-        border-radius: 20px !important;
-        width: 5px;
-
-    }
-
-    ol.carousel-indicators li.active {
-  background: #FFF;
-  width: 5px;
-  padding:3px;
-
-}
 
    
 }
@@ -171,10 +206,10 @@ margin:-1.2% 40%;
 	right:22%;
 }
 	
-/*slidebar
+/*slidebar*/
 	#myCarousel{
 	width: 100%;
-	margin: 0 -2%;
+	margin: 0 0;
 	}
 	.carousel-caption {
 	position: relative;
@@ -190,6 +225,11 @@ margin:-1.2% 40%;
 
 	.container h1,h2 {
 		font-size:26px;
+	}
+
+	.carousel-indicators {
+    	margin: 10% -27%;
+    	height: 20%;
 	}
 }
 /*footer srtle*/
