@@ -8,6 +8,8 @@
 body {
 margin:0;
 padding: 0;
+background:url(https://freenaturestock.com/wp-content/uploads/freenaturestock-95.jpeg) no-repeat center center ;
+padding-top:10%;
 }
 
 /* *video: 
@@ -111,6 +113,7 @@ margin:-1.2% 40%;
 	left:auto;
 	right:auto;
 	height:100px;
+	color:black;
 }
 
 
@@ -141,6 +144,10 @@ margin:-1.2% 40%;
 }
 
 
+/*carousel-control*/
+.glyphicon {
+	margin:-85% -45% !important; 
+}
 
 
 
@@ -176,8 +183,8 @@ margin:-1.2% 40%;
 	}
 
 	#myCarousel{
-	width: 78%;
-	margin: 0 9%;
+	width: 100%;
+	margin: 0 0%;
 	}
 	.carousel-caption {
 	position: relative;
@@ -192,7 +199,7 @@ margin:-1.2% 40%;
 	}
 
 	.carousel-indicators {
-    	margin: 10% -27%;
+    	margin: 11% -27%;
     	height: 20%;
 	}
 
@@ -226,11 +233,14 @@ margin:-1.2% 40%;
 	.container h1,h2 {
 		font-size:26px;
 	}
-
+/*slideShow neshangar*/
 	.carousel-indicators {
     	margin: 10% -27%;
     	height: 20%;
 	}
+
+
+
 }
 /*footer srtle*/
 
